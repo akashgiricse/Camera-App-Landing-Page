@@ -7,6 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      .jumbotron{
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100vh;
+      }
+      section{
+        padding-top: 4rem;
+      }
+      #newsletter{
+        padding-top: 0;
+      }
+
+    </style>
   </head>
   <body data-spy = "scroll" data-target = "#navScrollspy">
     <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
@@ -233,7 +250,7 @@
            </div>
       </section>
     </div>
-    <section class="bg-secondary">
+    <section id="newsletter" class="bg-secondary">
       <div class="container">
         <form class="py-5 text-white">
           <h2 class="text-center">Sign-up for our newsletter</h2>
